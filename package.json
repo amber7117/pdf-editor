@@ -1,12 +1,12 @@
 {
   "name": "pdf-editor",
   "version": "1.0.0",
-  "requires": true
+  "requires": true,
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public"
-},
+  },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.2",
     "@rollup/plugin-commonjs": "^11.0.0",
